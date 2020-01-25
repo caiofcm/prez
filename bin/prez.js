@@ -33,6 +33,11 @@ if (args.stats) {
   process.exit(0);
 }
 
+if (args["aux-slide-names"]) {
+  cli.auxSlideNames(from, args);
+  process.exit(0);
+}
+
 var to = args._[1];
 if (!to) {
   warn("Destination folder not specified: use 'build'");

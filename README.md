@@ -151,6 +151,8 @@ Assets & slides
 * `--skip-user`: do not include user assets
 * `--keep-hidden`: render slides or chapters starting with a dot `.`
 * `--sub-covers`: auto generate cover slides with the dir name as a h1 for each chapter (vertical stack of slides)
+* `--slide-list=<slide-list-file>`: render chapters following a slide ordering defined in slide-list-file (see: `data/init/slides-list.txt`)
+* `--slide-list`: show the slides names inside the defined `-slides-dir`
 
 Custom parser
 
