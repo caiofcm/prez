@@ -59,7 +59,10 @@
         //{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
         //{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
         { src: 'plugin/zoom-js/zoom.js', async: true },
-        { src: 'plugin/notes/notes.js', async: true }
+        { src: 'plugin/notes/notes.js', async: true },
+
+        // Third-party Modules (not in the reveal distribution) should be placed in js
+        { src: 'js/plugins/mouse-pointer.js', async: true },
       ]
     });
     </script>
