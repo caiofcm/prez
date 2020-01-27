@@ -1,7 +1,7 @@
 // Custom JS code can go here
 
 // You can customize Reveal options:
-Reveal.configure({"center": false});
+Reveal.configure({"center": true});
 
 /* Or load external scripts if needed:
 head.ready("lodash.min.js", function () {
@@ -9,3 +9,4 @@ head.ready("lodash.min.js", function () {
 });
 head.js("https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js");
 */
+import katex from "katex";

@@ -28,7 +28,9 @@
             "name": "Launch Prez",
             "program": "${workspaceFolder}/bin/prez.js",
             // "args": ["./data/init/", "--slide-list", "./slides-list.txt"],
-            "args": ["./data/init/", "--aux-slide-names"],
+            // "args": ["./data/init/", "--aux-slide-names"],
+            // "args": ["./data/init/"],
+            "args": ["./data/single-html/"],
             "skipFiles": [
                 "<node_internals>/**"
             ]
