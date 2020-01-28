@@ -9,4 +9,3 @@ head.ready("lodash.min.js", function () {
 });
 head.js("https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js");
 */
-import katex from "katex";
